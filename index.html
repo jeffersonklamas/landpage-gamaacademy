@@ -4,23 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio Hiring Coders #2 proposto pela @GamaAcademy o de criar uma landing page, simples para aplicarmos o conhecimento até então conhecido.">
+    <meta name="Jefferson Klamas" content="Desafio Hiring Coders #2 proposto pela @GamaAcademy" >
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Sexta Imperdível</title>
 
     <link rel="stylesheet" href="css/style.css">
-    
 </head>
 <body>
+    <header>
+        <section>
+            <div>
+               
+            </div>
+        </section>
+    </header>
    <section class="section-container background-section-one">
        <img src="img/bg.png" alt="">
+
+       <!-- Countdown start -->
+        <div id="countdown_dashboard">
+        
+            <div class="dashp">
+            <span class="dashtitle">Dias</span>
+            <p id="days"></p>
+            </div>
+        
+            <div class="dashp">
+            <span class="dashtitle">Horas</span>
+            <p id="hours"></p>
+            </div>
+        
+            <div class="dashp">
+            <span class="dashtitle">Minutos</span>
+            <p id="minutes"></p>
+            </div>
+        
+            <div class="dashp">
+            <span class="dashtitle">Segundos</span>
+            <p id="seconds"></p>
+            </div>
+        
+        </div>
+        <!-- Countdown end -->
    </section>
 
    <section class="section-container background-section-two">
-
+       <div class="tema">
+           Cadastre seu email para receber nossas promoções
+       </div>
+       
        <div class="card-container">
            <div id="content">
             <form id="form">
-                <input type="text" placeholder="Digite seu nome" id="nome">
-                <input type=" text" placeholder="Digite seu email" id="email">
+                <input type="text" placeholder="Digite seu nome" id="nome" required>
+                <input type=" text" placeholder="Digite seu email" id="email" required>
                 <input type="submit" value="Cadastrar">
             </form>
            </div>
@@ -34,5 +72,6 @@
    </footer>  
 
 </body>
+
 <script src="js/script.js"></script>
 </html>
