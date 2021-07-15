@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000;
+    color: white;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section-one{
+    background-image: url(../img/bg5.jpeg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.background-section-two{
+    background-image: url(../img/bg3.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100% cover;
+    background-repeat: no-repeat;
+}
+
+
+.card-container{
+    background: #ff8080;
+    /* color:#fff; */
+    border-radius: 25px;
+    padding: 15px;
+    max-width: 450px;
+    margin: 100px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 25px;
+    background: #FAEBD7;
+    color: #000;
+    /* background-color: #4d00; */
+    font-weight: bold;
+}
+
+/* 
+form {
+    display: grid;
+    background-color: #000;
+}
+ */
+
+ alert {
+     background: #000;
+     color: #fff;
+ }
+
+footer { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 5px;
+    text-align: unset;
+    background-color:#000;
+}
+
+.footer-link{
+    color: #fff;
+}
+
+@media (max-width: 496px) {
+    .logo img {
+      margin-bottom: -40px;
+    }
+  
+    .top-content div {
+      width: 100%;
+    }
+  
+    .top-content p {
+      margin-bottom: 30px;
+    }
+  
+    .email-form {
+      width: 70%;
+      margin: 0 auto;
+    }
+  
+    #bottom-container {
+      padding: 1px;
+    }
+  
+    #clock {
+      font-size: 14px;
+      padding: 10px;
+    }
+}
+
+  @media screen and (min-width:1024px) {
+ #main { min-width: 1000px; }
+}
+
