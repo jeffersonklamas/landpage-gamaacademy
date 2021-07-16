@@ -40,6 +40,8 @@ body {
 }
 /* Fim Contador de dias e horas */
 
+
+
 .section-container{
     height: 100vh;
     width: 100%;
@@ -47,6 +49,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* min-height: 100%; */
 }
 
 .background-section-one{
@@ -54,13 +57,16 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    min-height: 100%;
 }
+
 
 .background-section-two{
     background-image: url(../img/bg3.jpg);
     background-attachment: fixed;
     background-size: 100% 100% cover;
     background-repeat: no-repeat;
+    min-height: 100%;
 }
 
 .tema{
@@ -70,6 +76,7 @@ body {
   border-radius: 80px;
   background: #000;
   font-size: 30px;
+  text-align: center;
   /* font-weight: lighter; */
   /* display: inline-block; */
   /* border: 1px solid #2014cc; */
@@ -131,38 +138,40 @@ footer {
 
 /*Fim do Rodapé */
 
-/*Resonsividade*/
-
-@media (max-width: 496px) {
-    .logo img {
-      margin-bottom: -40px;
-    }
-  
-    .top-content div {
-      width: 100%;
-    }
-  
-    .top-content p {
-      margin-bottom: 30px;
-    }
-  
-    .email-form {
-      width: 70%;
-      margin: 0 auto;
-    }
-  
-    #bottom-container {
-      padding: 1px;
-    }
-  
-    #clock {
-      font-size: 14px;
-      padding: 10px;
-    }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-  @media screen and (min-width:1024px) {
- #main { min-width: 1000px; }
+/*Resonsividade*/
+@media screen and (max-width: 650px){
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .tema{
+    max-width: 100%;
+    height: auto;
+
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #countdown_dashboard {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 370){
+  .background-section-two {
+    max-width: 1%;
+    height: auto;
+    /* min-height: 100%; */
+  }
 }
 
 /* Fim Responsividade */

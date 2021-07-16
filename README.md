@@ -28,7 +28,7 @@ Este é o primeiro desafio a solicitado para ser entregue.
 
 ### Avaliação
 
-Preciso melhorar o conhecimento em `JavaScript`, penso que será importante para o desenvolvimento e aplicação das demais bibliotecas em `JS`.
+Preciso melhorar o conhecimento em `JavaScript`, penso que será importante para o desenvolvimento e aplicação das demais bibliotecas em `JS` e responsividade da aplicação.
 
 Subi o projeto no `github` e criei a página via `Netlifly` buscando as informações do repositório, assim toda vez que resolver melhorar o projeto o deploy na página é automático.
 
@@ -40,7 +40,7 @@ Subi o projeto no `github` e criei a página via `Netlifly` buscando as informa�
 
 O contador de dias e horas, copiei do blog `Hospedagem de Wordpress Pro`, acesse o site [neste link](https://hospedagemwordpresspro.com.br/contador-de-dias-para-black-friday-em-javascript-e-css/).
 
-A responsividade uma boa parte copiei do `Lucas de Souza Klein`, acesse o código no github, [neste link](https://github.com/olucasklein/gama-blackfriday-relampago/blob/master/styles/style.css).
+E
 
-E a mentoria da Gama Academy para o nosso desenvolvimento, acesse o site [neste link](https://www.gama.academy/?utm_source=google&utm_medium=compramidia&utm_campaign=institucional-brand).
+A mentoria da Gama Academy para o nosso desenvolvimento, acesse o site [neste link](https://www.gama.academy/?utm_source=google&utm_medium=compramidia&utm_campaign=institucional-brand).
 
