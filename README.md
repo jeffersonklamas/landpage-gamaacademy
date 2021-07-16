@@ -32,9 +32,15 @@ Preciso melhorar o conhecimento em `JavaScript`, penso que será importante para
 
 Subiu o projeto no `github` e criei a página via `Netlifly` buscando as informações do repositório no `github` assim, toda vez que resolver melhorar o projeto o deploy é automático.
 
-
-
 ### Link da página criada
 
 [Landing-Page](https://landpagind-desafio-hiringcoders2.netlify.app/)
+
+### Créditos
+
+O contador de dias e horas, copiei do blog `Hospedagem de Wordpress Pro`, acesse o site [neste link](https://hospedagemwordpresspro.com.br/contador-de-dias-para-black-friday-em-javascript-e-css/).
+
+A responsividade uma boa parte copiei do `Lucas de Souza Klein`, acesse o código no github, [neste link](https://github.com/olucasklein/gama-blackfriday-relampago/blob/master/styles/style.css).
+
+E a mentoria da Gama Academy para o nosso desenvolvimento, acesse o site [neste link](https://www.gama.academy/?utm_source=google&utm_medium=compramidia&utm_campaign=institucional-brand).
 
