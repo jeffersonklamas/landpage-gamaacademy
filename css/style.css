@@ -40,8 +40,6 @@ body {
 }
 /* Fim Contador de dias e horas */
 
-
-
 .section-container{
     height: 100vh;
     width: 100%;
@@ -60,6 +58,11 @@ body {
     min-height: 100%;
 }
 
+/* Testando sombra em uma imagem transparente */
+
+img {
+  filter: drop-shadow(6px 10px 15px #d84fcd);
+}
 
 .background-section-two{
     background-image: url(../img/bg3.jpg);
@@ -175,3 +178,10 @@ footer {
 }
 
 /* Fim Responsividade */
+
+
+/* Impede a copia do texto pelo usuário */
+
+.paragraph {
+  user-select: none;
+}
