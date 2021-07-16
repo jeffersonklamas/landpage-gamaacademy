@@ -33,3 +33,8 @@ Preciso melhorar o conhecimento em `JavaScript`, penso que será importante para
 Subiu o projeto no `github` e criei a página via `Netlifly` buscando as informações do repositório no `github` assim, toda vez que resolver melhorar o projeto o deploy é automático.
 
 
+
+### Link da página criada
+
+[Landing-Page](https://landpagind-desafio-hiringcoders2.netlify.app/)
+
