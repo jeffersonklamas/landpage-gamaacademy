@@ -30,7 +30,7 @@ Este é o primeiro desafio a solicitado para ser entregue.
 
 Preciso melhorar o conhecimento em `JavaScript`, penso que será importante para o desenvolvimento e aplicação das demais bibliotecas em `JS`.
 
-Subiu o projeto no `github` e criei a página via `Netlifly` buscando as informações do repositório no `github` assim, toda vez que resolver melhorar o projeto o deploy é automático.
+Subi o projeto no `github` e criei a página via `Netlifly` buscando as informações do repositório assim, toda vez que resolver melhorar o projeto o deploy na página é automático.
 
 ### Link da página criada
 
