@@ -3,7 +3,7 @@
 ## Desafio - Criar uma **landing page** para cadastro de email.
 
 * Estilo de página simples referente as loucas promoções do mês de Novembro.
-* Receber email e salvar no LocalHost.
+* Receber email e salvar no localstorage.
 * Entrega até 18/07/2021 às 23:59.
 
 ### Desafio
